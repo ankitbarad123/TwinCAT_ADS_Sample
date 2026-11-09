@@ -1,0 +1,23 @@
+# C++ / CMake build output
+build/
+out/
+cmake-build-*/
+
+# C# / .NET build output
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

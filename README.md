@@ -38,6 +38,4 @@ your program -> ADS library -> TwinCAT ADS router (AMS Net ID) -> PLC runtime (p
 - With a **remote PLC** and no TwinCAT on the PC, the C++ sample can use the library's standalone router instead (`-DADS_USE_TWINCAT_ROUTER=OFF`), but then the PLC needs a static route back to the PC. That path is only compile-tested.
 - ADS error **1808** means the symbol was not found (check the name and that the PLC program is running). Errors **6** and **7**, and timeouts, usually point to a wrong Net ID, a missing route, or a stopped PLC runtime.
 
-## License
 
-MIT, see [`LICENSE`](LICENSE). Replace `YOUR NAME` in that file with your own name before publishing, and confirm with your employer that you may publish work-related sample code.

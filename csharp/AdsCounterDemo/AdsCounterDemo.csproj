@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>AdsCounterDemo</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Beckhoff's official ADS client library for .NET.
+         "7.*" takes the newest 7.x release when you restore. After the first successful
+         build, you can pin it to the exact version that was restored (e.g. Version="7.0.389")
+         so that everyone on the team builds with the same one. -->
+    <PackageReference Include="Beckhoff.TwinCAT.Ads" Version="7.*" />
+  </ItemGroup>
+
+</Project>
